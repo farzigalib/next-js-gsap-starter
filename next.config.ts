@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   reactStrictMode: false,
+  output: 'export',
+  basePath: '/next-js-gsap-starter',
   images: {
     remotePatterns: [
       {
