@@ -1,9 +1,9 @@
 const baseUrl: string =
     process.env.NODE_ENV === 'development'
-        ? 'http://localhost:3000/'
+        ? 'http://localhost:3000'
         : process.env.NEXT_PUBLIC_DOMAIN || '';
 
-export async function dynamicBlurDataUrl(url: string): Promise<string> {
+export async function dynamicBlurDataUrl(url: string): Promise<string> {  
     // * generate the smallest image => convert to Base64 (w=16&q=75)
     /**
    * Can see what is the smallest image 'w=**&amp;q=**' by inspecting the image
