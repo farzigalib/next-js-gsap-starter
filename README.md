@@ -4,7 +4,9 @@
 [![GSAP](https://img.shields.io/badge/GSAP-3.x-green?logo=greensock)](https://greensock.com/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Vercel Deploy](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)](https://next-js-gsap-starter.vercel.app)
+
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ffarzigalib%2Fnext-js-gsap-starter)
 
 > A minimal, developer-friendly starter template that combines **Next.js**, **TypeScript**, and **GSAP** for building high-performance animated web experiences.
 
